@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../src/com/column/model/CMDBXMLSchema1111.xsd">
+<constantData>
+    <custDatasetId>SCCM.IMPORT</custDatasetId>
+	<custFirstRetrieve>0</custFirstRetrieve>
+	<custGetMask>DATASET_MODE_CURRENT</custGetMask>
+	<custMaxRetrieve>0</custMaxRetrieve>
+</constantData>
+<classDataList id="1">
+    <custAttributes>
+		<custList>Name</custList>
+		<custList>Description</custList>
+		<custList>Region</custList>
+            <custList>Site Group</custList>
+            <custList>Site</custList>
+            <custList>Floor</custList>
+            <custList>Room</custList>
+            <custList>Confidentiality</custList>
+            <custList>Integrity</custList>
+            <custList>Department</custList>
+            <custList>OwnerName</custList>
+            <custList>Serial Number</custList>
+            <custList>Domain</custList> 
+	</custAttributes>
+    <custClassNameId>
+        <custClassName>BMC_ComputerSystem</custClassName>
+        <custNamespaceName>BMC.CORE</custNamespaceName>
+    </custClassNameId>
+    <custQuery></custQuery>
+    <custSortOrder>
+		<sortOrderlist>
+			<attributeName>Name</attributeName>
+			<sortOrder>ASENDING</sortOrder>
+		</sortOrderlist>
+	</custSortOrder>	
+</classDataList>
+
+<classDataList id="2">
+    <custAttributes>
+			<custList>Name</custList>
+	</custAttributes>
+    <custClassNameId>
+        <custClassName>BMC_IPEndpoint</custClassName>
+        <custNamespaceName>BMC.CORE</custNamespaceName>
+    </custClassNameId>
+    <custQuery></custQuery>
+    <custSortOrder>
+		<sortOrderlist>
+			<attributeName>Name</attributeName>
+			<sortOrder>ASENDING</sortOrder>
+		</sortOrderlist>
+	</custSortOrder>
+</classDataList>
+
+<classDataList id="3">
+    <custAttributes>
+			<custList>Name</custList>
+	</custAttributes>
+    <custClassNameId>
+        <custClassName>BMC_LANEndpoint</custClassName>
+        <custNamespaceName>BMC.CORE</custNamespaceName>
+    </custClassNameId>
+    <custQuery></custQuery>
+    <custSortOrder>
+		<sortOrderlist>
+			<attributeName>Name</attributeName>
+			<sortOrder>ASENDING</sortOrder>
+		</sortOrderlist>
+	</custSortOrder>
+</classDataList>
+   
+</CMDB>

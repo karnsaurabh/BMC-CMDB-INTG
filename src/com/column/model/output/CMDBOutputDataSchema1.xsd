@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="CMDBOutput" type="cmdbOutputData"/>
+
+  <xs:complexType name="cmdbOutputData">
+    <xs:sequence>
+      <xs:element name="custOutputClassDatas" type="custOutputClassData" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="custOutputClassData">
+    <xs:sequence>
+      <xs:element name="custInstanceId" type="xs:string" minOccurs="0"/>
+      <xs:element name="custOutputAttributes" type="custOutputAttributes" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="custOutputClassName" type="xs:string" minOccurs="0"/>
+      <xs:element name="custOutputNamespaceName" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="custOutputAttributes">
+    <xs:sequence>
+      <xs:element name="outputAttributeName" type="xs:string" minOccurs="0"/>
+      <xs:element name="outputAttributeValue" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

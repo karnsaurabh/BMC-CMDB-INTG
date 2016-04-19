@@ -1,0 +1,90 @@
+
+package com.bmc.atrium._2009._01.common;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlType;
+
+
+/**
+ * <p>Java class for AttributeValue complex type.
+ * 
+ * <p>The following schema fragment specifies the expected content contained within this class.
+ * 
+ * <pre>
+ * &lt;complexType name="AttributeValue">
+ *   &lt;complexContent>
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *       &lt;sequence>
+ *         &lt;element name="name" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *         &lt;element name="value" type="{http://atrium.bmc.com/2009/01/common}Value"/>
+ *       &lt;/sequence>
+ *     &lt;/restriction>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
+ * </pre>
+ * 
+ * 
+ */
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "AttributeValue", propOrder = {
+    "name",
+    "value"
+})
+public class AttributeValue {
+
+    @XmlElement(required = true)
+    protected String name;
+    @XmlElement(required = true, nillable = true)
+    protected Value value;
+
+    /**
+     * Gets the value of the name property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link String }
+     *     
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Sets the value of the name property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link String }
+     *     
+     */
+    public void setName(String value) {
+        this.name = value;
+    }
+
+    /**
+     * Gets the value of the value property.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Value }
+     *     
+     */
+    public Value getValue() {
+        return value;
+    }
+
+    /**
+     * Sets the value of the value property.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Value }
+     *     
+     */
+    public void setValue(Value value) {
+        this.value = value;
+    }
+
+}
