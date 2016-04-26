@@ -1,5 +1,7 @@
 package com.column.main;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import javax.xml.ws.BindingProvider;
@@ -30,6 +32,9 @@ import com.column.model.CustSortOrderAttributes;
 import com.column.model.output.CMDBOutputData;
 import com.column.soap.util.ResponseData;
 import com.column.util.CustomEndPointURL;
+import com.column.util.DateUtility;
+import com.column.util.DynamicQueryString;
+import com.column.util.PropertiesFileReaderWriter;
 import com.column.util.XmlReaderWriter;
 
 public class CmdbWSUsingXML {
@@ -37,18 +42,38 @@ public class CmdbWSUsingXML {
 	
 	private static final String XMLFILEPATH_INPUT="xml_resources\\input.xml";
 	private static final String XMLFILEPATH_OUTPUT="xml_resources\\outputfiles\\";
-	
+	private static final String PROPERTIES_FILE_PATH = "C:\\metricStream\\Property_file\\last_run.properties";
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		
+        String pattern = "MM/dd/yyyy HH:mm:ss";
+        SimpleDateFormat format = new SimpleDateFormat(pattern);
+		
 		try{
+				
 		 	CMDB cmdb = XmlReaderWriter.getIndataObject(XMLFILEPATH_INPUT);
 		 	
 		 	CustConstantData custConstantData = cmdb.getConstantData(); 
 			List<CustClassData> custClassDataList = cmdb.getClassDataList();
+			
+			String curDate = format.format(new Date());
+
+            String lastRun = PropertiesFileReaderWriter.getLastRunDateString(PROPERTIES_FILE_PATH);
+            
+            System.out.println("Last Run Date and Time is " + lastRun);
+            
+            long lastRunTime = 0l;
+            long curTime = DateUtility.getCurrentTimeLong(curDate);
+            System.out.println("Current time ::: " + curTime);
+            
+            if (lastRun != null && lastRun.length() > 0) {
+            	lastRunTime = DateUtility.getCurrentTimeLong(lastRun);
+            }
+
+            System.out.println("Last time ::: " + lastRunTime);
 			
 			CustClassNameId classNameid = null;
 			for(int i = 0; i < custClassDataList.size() ; i++ )
@@ -69,6 +94,8 @@ public class CmdbWSUsingXML {
 		        }
 		        String datasetId = custConstantData.getCustDatasetId();
 		        String query = ccd.getCustQuery();
+		        
+	            String finalQuery = DynamicQueryString.getQueryString(query, lastRunTime, curTime);
 		        
 		        SortOrderList soList = new SortOrderList();
 		        List<SortOrder> soL =  soList.getList();
@@ -111,7 +138,7 @@ public class CmdbWSUsingXML {
 	            final Holder<StatusList> status = new Holder<StatusList>();
 	            try {
 	            	
-					aipt.getInstances(null, id , query, sa, firstRetrieve, maxRetrieve, soList, datasetId, gm , extensions, instanceInfo, status);
+					aipt.getInstances(null, id , finalQuery, sa, firstRetrieve, maxRetrieve, soList, datasetId, gm , extensions, instanceInfo, status);
 					
 					CMDBOutputData outData = ResponseData.writeOutputData(instanceInfo);
 					
@@ -123,13 +150,15 @@ public class CmdbWSUsingXML {
 					e.printStackTrace();
 					logger.error("AtriumFault Exception ::::: ", e);
 				}
-			}	
+			}
+				
+			PropertiesFileReaderWriter.setLastRunDateString(PROPERTIES_FILE_PATH, curDate);
 		}
 		catch(Exception e){
 			e.printStackTrace();
 			logger.error("Exception ::::: ", e);
 		}
-
+		
 	}
 
 }
