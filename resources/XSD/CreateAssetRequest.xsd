@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="CommonRequestFields.xsd" />
+
+	<xs:element name="Datapacket">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="message_header" type="MessageHeaderType">
+				</xs:element>
+				<xs:element name="data_lines" type="DataLinesType">
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="DataLinesType">
+		<xs:sequence>
+			<xs:element name="asset" type="ASSTType" maxOccurs="unbounded"
+				minOccurs="1">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ASSTType">
+		<xs:complexContent>
+			<xs:extension base="CommonFieldsType">
+				<xs:sequence>
+					<xs:element type="xs:string" name="asset_object_level"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="asset_object_type"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="asset_object_parent"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="physical_location"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="business_criticality"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="confidentiality"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="integrity" maxOccurs="1"
+						minOccurs="0" />
+					<xs:element type="xs:string" name="availability"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="serial" maxOccurs="1"
+						minOccurs="0" />
+					<xs:element type="xs:string" name="net_bios_name"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="dns_name_fqdn"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="mac_address"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="ipv4_address"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="ipv6_address"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="recovery_time_objective_rto"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="recovery_point_objective_rpo"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="work_recovery_time_wrt"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="maximum_tolerable_downtime_mtd"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="recovery_time_actual_rta"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="duration_rto"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="duration_rpo"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="duration_wrt"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="duration_mtd"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="duration_rta"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="status"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element name="relationships" type="RelationshipType"
+						maxOccurs="1" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+
+	<xs:complexType name="RelationshipType">
+		<xs:sequence>
+			<xs:element name="related_objects" type="ASSTRelatedType"
+				minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ASSTRelatedType">
+		<xs:complexContent>
+			<xs:extension base="RelatedType">
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

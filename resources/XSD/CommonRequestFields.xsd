@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:complexType name="MessageHeaderType">
+		<xs:sequence>
+			<xs:element name="request_message_id" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:element name="create_date_time" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:element name="source" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:element name="version" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:element name="object_type" type="xs:string"
+				maxOccurs="1" minOccurs="1">
+			</xs:element>
+			<xs:element name="operation" type="xs:string"
+				maxOccurs="1" minOccurs="1">
+			</xs:element>
+			<xs:element name="purpose" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="CommonFieldsType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" maxOccurs="1"
+				minOccurs="1" />
+			<xs:element name="object_id" type="xs:string" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element name="description" type="xs:string" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element name="owner_organizations" type="xs:string"
+				minOccurs="0" maxOccurs="1" />
+			<xs:element name="owners" type="xs:string" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element name="restrict_access_to" type="xs:string"
+				maxOccurs="1" minOccurs="0" />
+			<xs:element name="valid_from" type="xs:string" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element name="valid_until" type="xs:string" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element name="action" type="xs:string" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element name="action_comments" type="xs:string"
+				maxOccurs="1" minOccurs="0" />
+			<xs:element name="source" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="RelatedType">
+		<xs:sequence>
+			<xs:element name="object_type" type="xs:string" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element name="object_name" type="xs:string" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element name="object_id" type="xs:string" maxOccurs="1"
+				minOccurs="0">
+			</xs:element>
+			<xs:element name="additional_details" type="xs:string"
+				maxOccurs="1" minOccurs="0">
+			</xs:element>
+			<xs:element type="xs:string" name="relationship_nature"
+				maxOccurs="1" minOccurs="0" />
+			<xs:element type="xs:string" name="comments" maxOccurs="1"
+				minOccurs="0" />
+			<xs:element type="xs:string" name="applicable_to"
+				maxOccurs="1" minOccurs="0" />
+			<xs:element type="ListOfValues" name="stake_holders"
+				maxOccurs="1" minOccurs="0" />
+			<xs:element type="xs:string" name="location" maxOccurs="1"
+				minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ListOfValues">
+		<xs:sequence>
+			<xs:element name="value" type="xs:string"
+				maxOccurs="unbounded" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+
+</xs:schema>

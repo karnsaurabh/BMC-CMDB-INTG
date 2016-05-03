@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="CmdResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="ResponseHdr" type="ResponseHdrType" maxOccurs="1"
+					minOccurs="1">
+				</xs:element>
+				<xs:element name="ResponseBody" type="ResponseBodyType" maxOccurs="1"
+					minOccurs="0">
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="ResponseHdrType">
+		<xs:sequence>
+			<xs:element name="MessageId" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:element name="ProcessStatus" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:element name="ProcessStatusMsg" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ResponseBodyType">
+		<xs:sequence>
+			<xs:element name="ObjectWiseResponse" type="ObjectWiseResponseType" maxOccurs="unbounded"
+					minOccurs="0">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="ObjectWiseResponseType">
+		<xs:sequence>
+			<xs:element name="ObjectId" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:element name="ObjectType" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:element name="ObjectStatus" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+			<xs:element name="ObjectStatusMsg" type="xs:string" maxOccurs="1"
+				minOccurs="1">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

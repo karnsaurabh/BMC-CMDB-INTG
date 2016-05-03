@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="CommonRequestFields.xsd" />
+
+	<xs:element name="Datapacket">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="message_header" type="MessageHeaderType">
+				</xs:element>
+				<xs:element name="data_lines" type="DataLinesType">
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="DataLinesType">
+		<xs:sequence>
+			<xs:element name="asset_class" type="ASCLType" maxOccurs="unbounded"
+				minOccurs="1">
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="ASCLType">
+		<xs:complexContent>
+			<xs:extension base="CommonFieldsType">
+				<xs:sequence>
+					<xs:element type="xs:string" name="object_level"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="parent" maxOccurs="1"
+						minOccurs="0" />
+					<xs:element type="xs:string" name="asset_class_type"
+						maxOccurs="1" minOccurs="0" />
+					<xs:element type="xs:string" name="cpe_equivalent_definition"
+						maxOccurs="1" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>
