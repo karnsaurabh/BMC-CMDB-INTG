@@ -1,0 +1,16 @@
+var atrMandatoryValueAlert = '${atrMandatoryValueAlert}';
+ 
+ F.onLoad(function(){
+     showToolbar();
+    F.SERVER_PASSWORD.makePasswordField();
+});
+
+F.onSubmit(function(){
+	F.DD_PROCESS_CODE.write('DUMMY_PF');
+
+	if(F.AR_SERVER_URL.read() === '' || F.USERNAME.read() === '' || F.SERVER_PASSWORD.read() === '') {
+		alert(atrMandatoryValueAlert);
+		return false;
+	}
+	return true;
+});

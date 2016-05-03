@@ -1,0 +1,600 @@
+<?xml version='1.0' encoding='UTF-8'?><FORM_SPEC><APPSTUDIO_DETAILS><APPSTUDIO_VERSION>616</APPSTUDIO_VERSION></APPSTUDIO_DETAILS><DEPENDENT_LIST/><DATA><DATA_FORM><![CDATA[&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;data_form&gt;
+    &lt;ve_name&gt;MS_ITG_ATR_CONFIG&lt;/ve_name&gt;
+    &lt;ve_pushform_name&gt;MS_ITG_ATR_CONFIG&lt;/ve_pushform_name&gt;
+    &lt;process_instance_id&gt;0&lt;/process_instance_id&gt;
+    &lt;ve_title&gt;BMC Atrium Web Services Connectivity Configuration&lt;/ve_title&gt;
+    &lt;ve_module&gt;ATR&lt;/ve_module&gt;
+    &lt;ve_enabled_flag&gt;Y&lt;/ve_enabled_flag&gt;
+    &lt;security_access_infolet&gt;None&lt;/security_access_infolet&gt;
+    &lt;created_by&gt;100000&lt;/created_by&gt;
+    &lt;creation_date&gt;2016-04-27+05:30&lt;/creation_date&gt;
+    &lt;updated_by&gt;100000&lt;/updated_by&gt;
+    &lt;updation_date&gt;2016-04-27+05:30&lt;/updation_date&gt;
+    &lt;ve_version&gt;1&lt;/ve_version&gt;
+    &lt;ve_deployed&gt;Y&lt;/ve_deployed&gt;
+    &lt;ve_dview_name&gt;MS_ITG_ATR_CONFIG_DV&lt;/ve_dview_name&gt;
+    &lt;log_number&gt;477&lt;/log_number&gt;
+    &lt;deployed_on&gt;2016-04-27+05:30&lt;/deployed_on&gt;
+    &lt;ve_view_name&gt;MS_ITG_ATR_CONFIG_V&lt;/ve_view_name&gt;
+    &lt;seq_no&gt;692&lt;/seq_no&gt;
+    &lt;ve_unique_id&gt;838&lt;/ve_unique_id&gt;
+    &lt;appstudio_version&gt;616&lt;/appstudio_version&gt;
+    &lt;ve_lock_duration_type&gt;System Default Time&lt;/ve_lock_duration_type&gt;
+    &lt;ve_enabled_lock&gt;N&lt;/ve_enabled_lock&gt;
+    &lt;du_deployed&gt;N&lt;/du_deployed&gt;
+    &lt;ve_error_flag&gt;N&lt;/ve_error_flag&gt;
+    &lt;ve_autosave&gt;N&lt;/ve_autosave&gt;
+    &lt;ve_enable_ws&gt;N&lt;/ve_enable_ws&gt;
+    &lt;ve_enable_data_backup_ret&gt;N&lt;/ve_enable_data_backup_ret&gt;
+    &lt;ve_enable_intermediate_sync&gt;N&lt;/ve_enable_intermediate_sync&gt;
+    &lt;ve_enable_offline_mode&gt;N&lt;/ve_enable_offline_mode&gt;
+    &lt;ve_enable_electronic_sign&gt;N&lt;/ve_enable_electronic_sign&gt;
+    &lt;ve_enable_lazy_lov&gt;N&lt;/ve_enable_lazy_lov&gt;
+    &lt;ve_enable_default_workflow&gt;N&lt;/ve_enable_default_workflow&gt;
+    &lt;ve_normalize_flag&gt;N&lt;/ve_normalize_flag&gt;
+    &lt;attributes&gt;
+        &lt;attribute&gt;
+            &lt;vea_entity_name&gt;MS_ITG_ATR_CONFIG&lt;/vea_entity_name&gt;
+            &lt;vea_attribute_id&gt;SERVER_URL&lt;/vea_attribute_id&gt;
+            &lt;result_column_name&gt;AR_SERVER_URL&lt;/result_column_name&gt;
+            &lt;vea_title&gt;AR Server Mid-tier URL&lt;/vea_title&gt;
+            &lt;vea_attr_source&gt;MS_ITG_ATR_CONFIG&lt;/vea_attr_source&gt;
+            &lt;vea_multi_row_flag&gt;N&lt;/vea_multi_row_flag&gt;
+            &lt;vea_hidden_flag&gt;N&lt;/vea_hidden_flag&gt;
+            &lt;vea_read_only_flag&gt;N&lt;/vea_read_only_flag&gt;
+            &lt;vea_required&gt;Y&lt;/vea_required&gt;
+            &lt;vea_default_infolet&gt;MS_ITG_ATRIUM_CONFIG_DETAILS&lt;/vea_default_infolet&gt;
+            &lt;vea_field_size&gt;60&lt;/vea_field_size&gt;
+            &lt;vea_field_type&gt;1&lt;/vea_field_type&gt;
+            &lt;vea_rows&gt;1&lt;/vea_rows&gt;
+            &lt;spell_check&gt;N&lt;/spell_check&gt;
+            &lt;vea_field_uppercase&gt;N&lt;/vea_field_uppercase&gt;
+            &lt;vea_enable_runinfolet&gt;N&lt;/vea_enable_runinfolet&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;vea_dflt_input_src&gt;ATRIUM_SERVER_URL&lt;/vea_dflt_input_src&gt;
+            &lt;t_d_parameter_count&gt;0&lt;/t_d_parameter_count&gt;
+            &lt;t_filter_param_cnt&gt;0&lt;/t_filter_param_cnt&gt;
+            &lt;t_d_filter_param_cnt&gt;0&lt;/t_d_filter_param_cnt&gt;
+            &lt;t_parameter_cnt&gt;0&lt;/t_parameter_cnt&gt;
+            &lt;attr_reg_count&gt;0&lt;/attr_reg_count&gt;
+            &lt;parent_region_flag&gt;0&lt;/parent_region_flag&gt;
+            &lt;vea_input_type&gt;0&lt;/vea_input_type&gt;
+            &lt;vea_d_input_type&gt;3&lt;/vea_d_input_type&gt;
+            &lt;vea_validate&gt;N&lt;/vea_validate&gt;
+            &lt;vea_datatype&gt;5&lt;/vea_datatype&gt;
+            &lt;vea_order&gt;7&lt;/vea_order&gt;
+            &lt;ent_attrib_filter_params/&gt;
+            &lt;ent_d_attrib_filter_params/&gt;
+            &lt;config_type&gt;N&lt;/config_type&gt;
+        &lt;/attribute&gt;
+        &lt;attribute&gt;
+            &lt;vea_entity_name&gt;MS_ITG_ATR_CONFIG&lt;/vea_entity_name&gt;
+            &lt;vea_attribute_id&gt;USERNAME&lt;/vea_attribute_id&gt;
+            &lt;result_column_name&gt;USERNAME&lt;/result_column_name&gt;
+            &lt;vea_title&gt;User Name&lt;/vea_title&gt;
+            &lt;vea_attr_source&gt;MS_ITG_ATR_CONFIG&lt;/vea_attr_source&gt;
+            &lt;vea_multi_row_flag&gt;N&lt;/vea_multi_row_flag&gt;
+            &lt;vea_hidden_flag&gt;N&lt;/vea_hidden_flag&gt;
+            &lt;vea_read_only_flag&gt;N&lt;/vea_read_only_flag&gt;
+            &lt;vea_required&gt;Y&lt;/vea_required&gt;
+            &lt;vea_default_infolet&gt;MS_ITG_ATRIUM_CONFIG_DETAILS&lt;/vea_default_infolet&gt;
+            &lt;vea_field_size&gt;25&lt;/vea_field_size&gt;
+            &lt;vea_field_type&gt;1&lt;/vea_field_type&gt;
+            &lt;vea_rows&gt;1&lt;/vea_rows&gt;
+            &lt;spell_check&gt;N&lt;/spell_check&gt;
+            &lt;vea_field_uppercase&gt;N&lt;/vea_field_uppercase&gt;
+            &lt;vea_enable_runinfolet&gt;N&lt;/vea_enable_runinfolet&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;vea_dflt_input_src&gt;ATRIUM_USER_NAME&lt;/vea_dflt_input_src&gt;
+            &lt;t_d_parameter_count&gt;0&lt;/t_d_parameter_count&gt;
+            &lt;t_filter_param_cnt&gt;0&lt;/t_filter_param_cnt&gt;
+            &lt;t_d_filter_param_cnt&gt;0&lt;/t_d_filter_param_cnt&gt;
+            &lt;t_parameter_cnt&gt;0&lt;/t_parameter_cnt&gt;
+            &lt;attr_reg_count&gt;0&lt;/attr_reg_count&gt;
+            &lt;parent_region_flag&gt;0&lt;/parent_region_flag&gt;
+            &lt;vea_input_type&gt;0&lt;/vea_input_type&gt;
+            &lt;vea_d_input_type&gt;3&lt;/vea_d_input_type&gt;
+            &lt;vea_validate&gt;N&lt;/vea_validate&gt;
+            &lt;vea_datatype&gt;5&lt;/vea_datatype&gt;
+            &lt;vea_order&gt;8&lt;/vea_order&gt;
+            &lt;ent_attrib_filter_params/&gt;
+            &lt;ent_d_attrib_filter_params/&gt;
+            &lt;config_type&gt;N&lt;/config_type&gt;
+        &lt;/attribute&gt;
+        &lt;attribute&gt;
+            &lt;vea_entity_name&gt;MS_ITG_ATR_CONFIG&lt;/vea_entity_name&gt;
+            &lt;vea_attribute_id&gt;SERVER_PASSWORD&lt;/vea_attribute_id&gt;
+            &lt;result_column_name&gt;SERVER_PASSWORD&lt;/result_column_name&gt;
+            &lt;vea_title&gt;Password&lt;/vea_title&gt;
+            &lt;vea_attr_source&gt;MS_ITG_ATR_CONFIG&lt;/vea_attr_source&gt;
+            &lt;vea_multi_row_flag&gt;N&lt;/vea_multi_row_flag&gt;
+            &lt;vea_hidden_flag&gt;N&lt;/vea_hidden_flag&gt;
+            &lt;vea_read_only_flag&gt;N&lt;/vea_read_only_flag&gt;
+            &lt;vea_required&gt;Y&lt;/vea_required&gt;
+            &lt;vea_default_infolet&gt;MS_ITG_ATRIUM_CONFIG_DETAILS&lt;/vea_default_infolet&gt;
+            &lt;vea_field_size&gt;25&lt;/vea_field_size&gt;
+            &lt;vea_field_type&gt;1&lt;/vea_field_type&gt;
+            &lt;vea_rows&gt;1&lt;/vea_rows&gt;
+            &lt;spell_check&gt;N&lt;/spell_check&gt;
+            &lt;vea_field_uppercase&gt;N&lt;/vea_field_uppercase&gt;
+            &lt;vea_enable_runinfolet&gt;N&lt;/vea_enable_runinfolet&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;vea_dflt_input_src&gt;ATRIUM_PASSWORD&lt;/vea_dflt_input_src&gt;
+            &lt;t_d_parameter_count&gt;0&lt;/t_d_parameter_count&gt;
+            &lt;t_filter_param_cnt&gt;0&lt;/t_filter_param_cnt&gt;
+            &lt;t_d_filter_param_cnt&gt;0&lt;/t_d_filter_param_cnt&gt;
+            &lt;t_parameter_cnt&gt;0&lt;/t_parameter_cnt&gt;
+            &lt;attr_reg_count&gt;0&lt;/attr_reg_count&gt;
+            &lt;parent_region_flag&gt;0&lt;/parent_region_flag&gt;
+            &lt;vea_input_type&gt;0&lt;/vea_input_type&gt;
+            &lt;vea_d_input_type&gt;3&lt;/vea_d_input_type&gt;
+            &lt;vea_validate&gt;N&lt;/vea_validate&gt;
+            &lt;vea_datatype&gt;5&lt;/vea_datatype&gt;
+            &lt;vea_order&gt;9&lt;/vea_order&gt;
+            &lt;ent_attrib_filter_params/&gt;
+            &lt;ent_d_attrib_filter_params/&gt;
+            &lt;config_type&gt;N&lt;/config_type&gt;
+        &lt;/attribute&gt;
+        &lt;attribute&gt;
+            &lt;vea_entity_name&gt;MS_ITG_ATR_CONFIG&lt;/vea_entity_name&gt;
+            &lt;vea_attribute_id&gt;DD_OBJECT_TYPE&lt;/vea_attribute_id&gt;
+            &lt;result_column_name&gt;DD_OBJECT_TYPE&lt;/result_column_name&gt;
+            &lt;vea_title&gt;Object Type&lt;/vea_title&gt;
+            &lt;vea_multi_row_flag&gt;N&lt;/vea_multi_row_flag&gt;
+            &lt;vea_hidden_flag&gt;N&lt;/vea_hidden_flag&gt;
+            &lt;vea_read_only_flag&gt;Y&lt;/vea_read_only_flag&gt;
+            &lt;vea_required&gt;Y&lt;/vea_required&gt;
+            &lt;vea_field_size&gt;25&lt;/vea_field_size&gt;
+            &lt;vea_field_type&gt;1&lt;/vea_field_type&gt;
+            &lt;vea_rows&gt;1&lt;/vea_rows&gt;
+            &lt;spell_check&gt;N&lt;/spell_check&gt;
+            &lt;vea_field_uppercase&gt;N&lt;/vea_field_uppercase&gt;
+            &lt;vea_enable_runinfolet&gt;N&lt;/vea_enable_runinfolet&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;t_d_parameter_count&gt;0&lt;/t_d_parameter_count&gt;
+            &lt;t_filter_param_cnt&gt;0&lt;/t_filter_param_cnt&gt;
+            &lt;t_d_filter_param_cnt&gt;0&lt;/t_d_filter_param_cnt&gt;
+            &lt;vea_default_input_value&gt;MS_ITG_ATR_CONFIG&lt;/vea_default_input_value&gt;
+            &lt;t_parameter_cnt&gt;0&lt;/t_parameter_cnt&gt;
+            &lt;attr_reg_count&gt;0&lt;/attr_reg_count&gt;
+            &lt;parent_region_flag&gt;0&lt;/parent_region_flag&gt;
+            &lt;vea_input_type&gt;0&lt;/vea_input_type&gt;
+            &lt;vea_d_input_type&gt;5&lt;/vea_d_input_type&gt;
+            &lt;vea_validate&gt;N&lt;/vea_validate&gt;
+            &lt;vea_datatype&gt;5&lt;/vea_datatype&gt;
+            &lt;vea_order&gt;1&lt;/vea_order&gt;
+            &lt;ent_attrib_filter_params/&gt;
+            &lt;ent_d_attrib_filter_params/&gt;
+            &lt;config_type&gt;D&lt;/config_type&gt;
+        &lt;/attribute&gt;
+        &lt;attribute&gt;
+            &lt;vea_entity_name&gt;MS_ITG_ATR_CONFIG&lt;/vea_entity_name&gt;
+            &lt;vea_attribute_id&gt;DD_CURRENT_USER_NAME&lt;/vea_attribute_id&gt;
+            &lt;result_column_name&gt;DD_CURRENT_USER_NAME&lt;/result_column_name&gt;
+            &lt;vea_title&gt;Current User Name&lt;/vea_title&gt;
+            &lt;vea_multi_row_flag&gt;N&lt;/vea_multi_row_flag&gt;
+            &lt;vea_hidden_flag&gt;N&lt;/vea_hidden_flag&gt;
+            &lt;vea_read_only_flag&gt;Y&lt;/vea_read_only_flag&gt;
+            &lt;vea_required&gt;Y&lt;/vea_required&gt;
+            &lt;vea_field_size&gt;25&lt;/vea_field_size&gt;
+            &lt;vea_field_type&gt;1&lt;/vea_field_type&gt;
+            &lt;vea_rows&gt;1&lt;/vea_rows&gt;
+            &lt;spell_check&gt;N&lt;/spell_check&gt;
+            &lt;vea_field_uppercase&gt;N&lt;/vea_field_uppercase&gt;
+            &lt;vea_enable_runinfolet&gt;N&lt;/vea_enable_runinfolet&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;t_d_parameter_count&gt;0&lt;/t_d_parameter_count&gt;
+            &lt;t_filter_param_cnt&gt;0&lt;/t_filter_param_cnt&gt;
+            &lt;t_d_filter_param_cnt&gt;0&lt;/t_d_filter_param_cnt&gt;
+            &lt;vea_default_input_value&gt;USER_NAME&lt;/vea_default_input_value&gt;
+            &lt;t_parameter_cnt&gt;0&lt;/t_parameter_cnt&gt;
+            &lt;attr_reg_count&gt;0&lt;/attr_reg_count&gt;
+            &lt;parent_region_flag&gt;0&lt;/parent_region_flag&gt;
+            &lt;vea_input_type&gt;0&lt;/vea_input_type&gt;
+            &lt;vea_d_input_type&gt;4&lt;/vea_d_input_type&gt;
+            &lt;vea_validate&gt;N&lt;/vea_validate&gt;
+            &lt;vea_datatype&gt;5&lt;/vea_datatype&gt;
+            &lt;vea_order&gt;2&lt;/vea_order&gt;
+            &lt;ent_attrib_filter_params/&gt;
+            &lt;ent_d_attrib_filter_params/&gt;
+            &lt;config_type&gt;D&lt;/config_type&gt;
+        &lt;/attribute&gt;
+        &lt;attribute&gt;
+            &lt;vea_entity_name&gt;MS_ITG_ATR_CONFIG&lt;/vea_entity_name&gt;
+            &lt;vea_attribute_id&gt;DD_EVENT_USER_NAME&lt;/vea_attribute_id&gt;
+            &lt;result_column_name&gt;DD_EVENT_USER_NAME&lt;/result_column_name&gt;
+            &lt;vea_title&gt;Event User Name&lt;/vea_title&gt;
+            &lt;vea_multi_row_flag&gt;N&lt;/vea_multi_row_flag&gt;
+            &lt;vea_hidden_flag&gt;N&lt;/vea_hidden_flag&gt;
+            &lt;vea_read_only_flag&gt;Y&lt;/vea_read_only_flag&gt;
+            &lt;vea_required&gt;Y&lt;/vea_required&gt;
+            &lt;vea_field_size&gt;25&lt;/vea_field_size&gt;
+            &lt;vea_field_type&gt;1&lt;/vea_field_type&gt;
+            &lt;vea_rows&gt;1&lt;/vea_rows&gt;
+            &lt;spell_check&gt;N&lt;/spell_check&gt;
+            &lt;vea_field_uppercase&gt;N&lt;/vea_field_uppercase&gt;
+            &lt;vea_enable_runinfolet&gt;N&lt;/vea_enable_runinfolet&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;t_d_parameter_count&gt;0&lt;/t_d_parameter_count&gt;
+            &lt;t_filter_param_cnt&gt;0&lt;/t_filter_param_cnt&gt;
+            &lt;t_d_filter_param_cnt&gt;0&lt;/t_d_filter_param_cnt&gt;
+            &lt;vea_default_input_value&gt;USER_NAME&lt;/vea_default_input_value&gt;
+            &lt;t_parameter_cnt&gt;0&lt;/t_parameter_cnt&gt;
+            &lt;attr_reg_count&gt;0&lt;/attr_reg_count&gt;
+            &lt;parent_region_flag&gt;0&lt;/parent_region_flag&gt;
+            &lt;vea_input_type&gt;0&lt;/vea_input_type&gt;
+            &lt;vea_d_input_type&gt;4&lt;/vea_d_input_type&gt;
+            &lt;vea_validate&gt;N&lt;/vea_validate&gt;
+            &lt;vea_datatype&gt;5&lt;/vea_datatype&gt;
+            &lt;vea_order&gt;3&lt;/vea_order&gt;
+            &lt;ent_attrib_filter_params/&gt;
+            &lt;ent_d_attrib_filter_params/&gt;
+            &lt;config_type&gt;D&lt;/config_type&gt;
+        &lt;/attribute&gt;
+        &lt;attribute&gt;
+            &lt;vea_entity_name&gt;MS_ITG_ATR_CONFIG&lt;/vea_entity_name&gt;
+            &lt;vea_attribute_id&gt;DD_ENTERPRISE_INFO&lt;/vea_attribute_id&gt;
+            &lt;result_column_name&gt;DD_ENTERPRISE_INFO&lt;/result_column_name&gt;
+            &lt;vea_title&gt;Enterprise Info&lt;/vea_title&gt;
+            &lt;vea_multi_row_flag&gt;N&lt;/vea_multi_row_flag&gt;
+            &lt;vea_hidden_flag&gt;N&lt;/vea_hidden_flag&gt;
+            &lt;vea_read_only_flag&gt;Y&lt;/vea_read_only_flag&gt;
+            &lt;vea_required&gt;Y&lt;/vea_required&gt;
+            &lt;vea_field_size&gt;25&lt;/vea_field_size&gt;
+            &lt;vea_field_type&gt;1&lt;/vea_field_type&gt;
+            &lt;vea_rows&gt;1&lt;/vea_rows&gt;
+            &lt;spell_check&gt;N&lt;/spell_check&gt;
+            &lt;vea_field_uppercase&gt;N&lt;/vea_field_uppercase&gt;
+            &lt;vea_enable_runinfolet&gt;N&lt;/vea_enable_runinfolet&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;t_d_parameter_count&gt;0&lt;/t_d_parameter_count&gt;
+            &lt;t_filter_param_cnt&gt;0&lt;/t_filter_param_cnt&gt;
+            &lt;t_d_filter_param_cnt&gt;0&lt;/t_d_filter_param_cnt&gt;
+            &lt;vea_default_input_value&gt;ENTERPRISE&lt;/vea_default_input_value&gt;
+            &lt;t_parameter_cnt&gt;0&lt;/t_parameter_cnt&gt;
+            &lt;attr_reg_count&gt;0&lt;/attr_reg_count&gt;
+            &lt;parent_region_flag&gt;0&lt;/parent_region_flag&gt;
+            &lt;vea_input_type&gt;0&lt;/vea_input_type&gt;
+            &lt;vea_d_input_type&gt;4&lt;/vea_d_input_type&gt;
+            &lt;vea_validate&gt;N&lt;/vea_validate&gt;
+            &lt;vea_datatype&gt;5&lt;/vea_datatype&gt;
+            &lt;vea_order&gt;4&lt;/vea_order&gt;
+            &lt;ent_attrib_filter_params/&gt;
+            &lt;ent_d_attrib_filter_params/&gt;
+            &lt;config_type&gt;D&lt;/config_type&gt;
+        &lt;/attribute&gt;
+        &lt;attribute&gt;
+            &lt;vea_entity_name&gt;MS_ITG_ATR_CONFIG&lt;/vea_entity_name&gt;
+            &lt;vea_attribute_id&gt;DD_CURRENT_STAGE&lt;/vea_attribute_id&gt;
+            &lt;result_column_name&gt;DD_CURRENT_STAGE&lt;/result_column_name&gt;
+            &lt;vea_title&gt;Current Stage&lt;/vea_title&gt;
+            &lt;vea_multi_row_flag&gt;N&lt;/vea_multi_row_flag&gt;
+            &lt;vea_hidden_flag&gt;N&lt;/vea_hidden_flag&gt;
+            &lt;vea_read_only_flag&gt;Y&lt;/vea_read_only_flag&gt;
+            &lt;vea_required&gt;N&lt;/vea_required&gt;
+            &lt;vea_field_size&gt;25&lt;/vea_field_size&gt;
+            &lt;vea_field_type&gt;1&lt;/vea_field_type&gt;
+            &lt;vea_rows&gt;1&lt;/vea_rows&gt;
+            &lt;spell_check&gt;N&lt;/spell_check&gt;
+            &lt;vea_field_uppercase&gt;N&lt;/vea_field_uppercase&gt;
+            &lt;vea_enable_runinfolet&gt;N&lt;/vea_enable_runinfolet&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;t_d_parameter_count&gt;0&lt;/t_d_parameter_count&gt;
+            &lt;t_filter_param_cnt&gt;0&lt;/t_filter_param_cnt&gt;
+            &lt;t_d_filter_param_cnt&gt;0&lt;/t_d_filter_param_cnt&gt;
+            &lt;t_parameter_cnt&gt;0&lt;/t_parameter_cnt&gt;
+            &lt;attr_reg_count&gt;0&lt;/attr_reg_count&gt;
+            &lt;parent_region_flag&gt;0&lt;/parent_region_flag&gt;
+            &lt;vea_input_type&gt;0&lt;/vea_input_type&gt;
+            &lt;vea_d_input_type&gt;0&lt;/vea_d_input_type&gt;
+            &lt;vea_validate&gt;N&lt;/vea_validate&gt;
+            &lt;vea_datatype&gt;5&lt;/vea_datatype&gt;
+            &lt;vea_order&gt;5&lt;/vea_order&gt;
+            &lt;ent_attrib_filter_params/&gt;
+            &lt;ent_d_attrib_filter_params/&gt;
+            &lt;config_type&gt;D&lt;/config_type&gt;
+        &lt;/attribute&gt;
+        &lt;attribute&gt;
+            &lt;vea_entity_name&gt;MS_ITG_ATR_CONFIG&lt;/vea_entity_name&gt;
+            &lt;vea_attribute_id&gt;DD_PROCESS_CODE&lt;/vea_attribute_id&gt;
+            &lt;result_column_name&gt;DD_PROCESS_CODE&lt;/result_column_name&gt;
+            &lt;vea_title&gt;Process Code&lt;/vea_title&gt;
+            &lt;vea_multi_row_flag&gt;N&lt;/vea_multi_row_flag&gt;
+            &lt;vea_hidden_flag&gt;N&lt;/vea_hidden_flag&gt;
+            &lt;vea_read_only_flag&gt;N&lt;/vea_read_only_flag&gt;
+            &lt;vea_required&gt;Y&lt;/vea_required&gt;
+            &lt;vea_field_size&gt;25&lt;/vea_field_size&gt;
+            &lt;vea_field_type&gt;1&lt;/vea_field_type&gt;
+            &lt;vea_rows&gt;1&lt;/vea_rows&gt;
+            &lt;spell_check&gt;N&lt;/spell_check&gt;
+            &lt;vea_field_uppercase&gt;N&lt;/vea_field_uppercase&gt;
+            &lt;vea_enable_runinfolet&gt;N&lt;/vea_enable_runinfolet&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;t_d_parameter_count&gt;0&lt;/t_d_parameter_count&gt;
+            &lt;t_filter_param_cnt&gt;0&lt;/t_filter_param_cnt&gt;
+            &lt;t_d_filter_param_cnt&gt;0&lt;/t_d_filter_param_cnt&gt;
+            &lt;t_parameter_cnt&gt;0&lt;/t_parameter_cnt&gt;
+            &lt;attr_reg_count&gt;0&lt;/attr_reg_count&gt;
+            &lt;parent_region_flag&gt;0&lt;/parent_region_flag&gt;
+            &lt;vea_input_type&gt;0&lt;/vea_input_type&gt;
+            &lt;vea_d_input_type&gt;0&lt;/vea_d_input_type&gt;
+            &lt;vea_validate&gt;N&lt;/vea_validate&gt;
+            &lt;vea_datatype&gt;5&lt;/vea_datatype&gt;
+            &lt;vea_order&gt;6&lt;/vea_order&gt;
+            &lt;ent_attrib_filter_params/&gt;
+            &lt;ent_d_attrib_filter_params/&gt;
+            &lt;config_type&gt;D&lt;/config_type&gt;
+        &lt;/attribute&gt;
+    &lt;/attributes&gt;
+    &lt;components&gt;
+        &lt;component&gt;
+            &lt;seq_no&gt;692&lt;/seq_no&gt;
+            &lt;ve_name&gt;MS_ITG_ATR_CONFIG&lt;/ve_name&gt;
+            &lt;entity_name&gt;MS_ITG_ATR_CONFIG&lt;/entity_name&gt;
+            &lt;enabled_flag&gt;Y&lt;/enabled_flag&gt;
+            &lt;control_flag&gt;No&lt;/control_flag&gt;
+        &lt;/component&gt;
+    &lt;/components&gt;
+    &lt;reports/&gt;
+    &lt;change_history_list&gt;
+        &lt;change_history&gt;
+            &lt;result_column_name&gt;DD_OBJECT_TYPE&lt;/result_column_name&gt;
+            &lt;header_section_name&gt;Default Fields&lt;/header_section_name&gt;
+            &lt;tracking_enabled&gt;N&lt;/tracking_enabled&gt;
+            &lt;display_enabled&gt;N&lt;/display_enabled&gt;
+            &lt;vea_title&gt;Object Type&lt;/vea_title&gt;
+        &lt;/change_history&gt;
+        &lt;change_history&gt;
+            &lt;result_column_name&gt;DD_CURRENT_USER_NAME&lt;/result_column_name&gt;
+            &lt;header_section_name&gt;Default Fields&lt;/header_section_name&gt;
+            &lt;tracking_enabled&gt;N&lt;/tracking_enabled&gt;
+            &lt;display_enabled&gt;N&lt;/display_enabled&gt;
+            &lt;vea_title&gt;Current User Name&lt;/vea_title&gt;
+        &lt;/change_history&gt;
+        &lt;change_history&gt;
+            &lt;result_column_name&gt;DD_EVENT_USER_NAME&lt;/result_column_name&gt;
+            &lt;header_section_name&gt;Default Fields&lt;/header_section_name&gt;
+            &lt;tracking_enabled&gt;N&lt;/tracking_enabled&gt;
+            &lt;display_enabled&gt;N&lt;/display_enabled&gt;
+            &lt;vea_title&gt;Event User Name&lt;/vea_title&gt;
+        &lt;/change_history&gt;
+        &lt;change_history&gt;
+            &lt;result_column_name&gt;DD_ENTERPRISE_INFO&lt;/result_column_name&gt;
+            &lt;header_section_name&gt;Default Fields&lt;/header_section_name&gt;
+            &lt;tracking_enabled&gt;N&lt;/tracking_enabled&gt;
+            &lt;display_enabled&gt;N&lt;/display_enabled&gt;
+            &lt;vea_title&gt;Enterprise Info&lt;/vea_title&gt;
+        &lt;/change_history&gt;
+        &lt;change_history&gt;
+            &lt;result_column_name&gt;DD_CURRENT_STAGE&lt;/result_column_name&gt;
+            &lt;header_section_name&gt;Default Fields&lt;/header_section_name&gt;
+            &lt;tracking_enabled&gt;N&lt;/tracking_enabled&gt;
+            &lt;display_enabled&gt;N&lt;/display_enabled&gt;
+            &lt;vea_title&gt;Current Stage&lt;/vea_title&gt;
+        &lt;/change_history&gt;
+        &lt;change_history&gt;
+            &lt;result_column_name&gt;DD_PROCESS_CODE&lt;/result_column_name&gt;
+            &lt;header_section_name&gt;Default Fields&lt;/header_section_name&gt;
+            &lt;tracking_enabled&gt;N&lt;/tracking_enabled&gt;
+            &lt;display_enabled&gt;N&lt;/display_enabled&gt;
+            &lt;vea_title&gt;Process Code&lt;/vea_title&gt;
+        &lt;/change_history&gt;
+        &lt;change_history&gt;
+            &lt;result_column_name&gt;AR_SERVER_URL&lt;/result_column_name&gt;
+            &lt;header_section_name&gt;${arServerDetails}&lt;/header_section_name&gt;
+            &lt;tracking_enabled&gt;N&lt;/tracking_enabled&gt;
+            &lt;display_enabled&gt;N&lt;/display_enabled&gt;
+            &lt;vea_title&gt;AR Server Mid-tier URL&lt;/vea_title&gt;
+        &lt;/change_history&gt;
+        &lt;change_history&gt;
+            &lt;result_column_name&gt;USERNAME&lt;/result_column_name&gt;
+            &lt;header_section_name&gt;${arServerDetails}&lt;/header_section_name&gt;
+            &lt;tracking_enabled&gt;N&lt;/tracking_enabled&gt;
+            &lt;display_enabled&gt;N&lt;/display_enabled&gt;
+            &lt;vea_title&gt;User Name&lt;/vea_title&gt;
+        &lt;/change_history&gt;
+        &lt;change_history&gt;
+            &lt;result_column_name&gt;SERVER_PASSWORD&lt;/result_column_name&gt;
+            &lt;header_section_name&gt;${arServerDetails}&lt;/header_section_name&gt;
+            &lt;tracking_enabled&gt;N&lt;/tracking_enabled&gt;
+            &lt;display_enabled&gt;N&lt;/display_enabled&gt;
+            &lt;vea_title&gt;Password&lt;/vea_title&gt;
+        &lt;/change_history&gt;
+    &lt;/change_history_list&gt;
+    &lt;ve_enable_snapshot&gt;Y&lt;/ve_enable_snapshot&gt;
+    &lt;ve_deploy_clob_flag&gt;N&lt;/ve_deploy_clob_flag&gt;
+&lt;/data_form&gt;
+]]></DATA_FORM><DATA_FORM_TEMPLATES><customJs><![CDATA[var atrMandatoryValueAlert = '${atrMandatoryValueAlert}';
+ 
+ F.onLoad(function(){
+     showToolbar();
+    F.SERVER_PASSWORD.makePasswordField();
+});
+
+F.onSubmit(function(){
+	F.DD_PROCESS_CODE.write('DUMMY_PF');
+
+	if(F.AR_SERVER_URL.read() === '' || F.USERNAME.read() === '' || F.SERVER_PASSWORD.read() === '') {
+		alert(atrMandatoryValueAlert);
+		return false;
+	}
+	return true;
+});]]></customJs><uiJson><![CDATA[[{"last_id":40,"id":"MAIN_CONTAINER","category":"CONTAINER","type":"MAIN_CONTAINER","ve_pushform_name":"MS_ITG_ATR_CONFIG","ve_title":"BMC Atrium Web Services Connectivity Configuration","ve_description":"","ve_module":{"name":"ATR","value":"ATR","id":0},"ve_form_engine":{"value":["ms_appstudio_mpower_def.vm","ms_appstudio_mpower_init.vm"],"name":"MPOWER"},"ve_form_theme":{"value":"dlo","name":"Dlo"},"ve_form_width":{"value":"720px","name":"Medium"},"ve_form_colspan":{"value":"3","name":"3"},"ve_form_template":"","ve_enabled_flag":{"value":"Y","name":"Yes"},"ve_dview_name":"MS_ITG_ATR_CONFIG_DV","ve_derived_from":"","ve_form_toolbar":{"value":true,"name":"Yes"},"ve_form_hidden_fields":{"value":"N","name":"No"},"row_count":8,"ve_form_zones":"","ve_form_rules":"","ve_view_name":"MS_ITG_ATR_CONFIG_V","security_edit":{"name":""},"security_edit_all":{"name":""},"security_label1":{"value":"Y","name":"Yes"},"security_label2":{},"security_access_infolet":"None","security_view":{"name":""},"security_view_all":{"name":""},"ve_form_hierarchies":"","ve_name":"MS_ITG_ATR_CONFIG","ve_generate_multirow_rules":{"value":"N","name":"No"},"ve_user_changed_LazyLov":false,"ve_enable_default_workflow":{"value":"N","name":"No"},"ve_autosave":{"value":"N","name":"No"},"autosave_timeout":300000,"min_autosave_timeout":300000,"ve_enable_ws":{"value":"N","name":"No"},"ve_normalize_flag":{"value":"N","name":"Denormalize"},"ve_enable_offline_mode":{"value":"N","name":"No"},"ve_enable_intermediate_sync":{"value":"N","name":"No"},"ve_enable_data_backup_ret":{"value":"N","name":"No"},"ve_enable_electronic_sign":{"value":"N","name":"No"},"ve_enable_lazy_lov":{"value":"N","name":"Active"},"ve_enable_lazy_report":{"value":"Y","name":"Yes"},"ve_help_filename":"","ve_enable_snapshot":"Y"},{"id":"MSAI_2","parentId":"MSAI_1","cell":0,"category":"CONTAINER","type":"TABS","align":{"value":"Left","name":"Left"},"description":"","tab_leaf_ids":["MSAI_3"],"ui_seq":0,"text":"Tabs","active_tab":"MSAI_3"},{"id":"MSAI_3","parentId":"MSAI_2","text":"${details}","type":"TABLEAF","order":1,"reorder":false,"row_count":4,"description":""},{"id":"MSAI_14","category":"CELL","type":"HEADER","ui_seq_count":1,"cell_count":1,"parentId":"MAIN_CONTAINER","containerType":"MAIN_CONTAINER","text":"Header Column","pattern":"","cols":3,"colWidth":"","row":0},{"id":"MSAI_1","category":"CELL","type":"HEADER","ui_seq_count":0,"cell_count":1,"parentId":"MAIN_CONTAINER","containerType":"MAIN_CONTAINER","text":"Header Column","pattern":"","cols":3,"colWidth":"","row":1},{"id":"MSAI_16","category":"CELL","type":"HIDDEN","ui_seq_count":1,"cell_count":1,"parentId":"MAIN_CONTAINER","containerType":"MAIN_CONTAINER","text":"Hidden Column","pattern":"","cols":3,"colWidth":"","row":2},{"id":"MSAI_17","category":"CELL","type":"HIDDEN","ui_seq_count":1,"cell_count":1,"parentId":"MAIN_CONTAINER","containerType":"MAIN_CONTAINER","text":"Hidden Column","pattern":"","cols":3,"colWidth":"","row":3},{"id":"MSAI_18","category":"CELL","type":"HIDDEN","ui_seq_count":1,"cell_count":1,"parentId":"MAIN_CONTAINER","containerType":"MAIN_CONTAINER","text":"Hidden Column","pattern":"","cols":3,"colWidth":"","row":4},{"id":"MSAI_19","category":"CELL","type":"HIDDEN","ui_seq_count":1,"cell_count":1,"parentId":"MAIN_CONTAINER","containerType":"MAIN_CONTAINER","text":"Hidden Column","pattern":"","cols":3,"colWidth":"","row":5},{"id":"MSAI_20","category":"CELL","type":"HIDDEN","ui_seq_count":1,"cell_count":1,"parentId":"MAIN_CONTAINER","containerType":"MAIN_CONTAINER","text":"Hidden Column","pattern":"","cols":3,"colWidth":"","row":6},{"id":"MSAI_21","category":"CELL","type":"HIDDEN","ui_seq_count":1,"cell_count":1,"parentId":"MAIN_CONTAINER","containerType":"MAIN_CONTAINER","text":"Hidden Column","pattern":"","cols":3,"colWidth":"","row":7},{"id":"MSAI_5","category":"CELL","type":"HEADER","ui_seq_count":1,"cell_count":1,"parentId":"MSAI_3","containerType":"TABS","text":"Header Column","pattern":"","cols":3,"colWidth":"","row":0},{"id":"MSAI_8","category":"CELL","type":"PLAIN","ui_seq_count":1,"cell_count":1,"parentId":"MSAI_3","containerType":"TABS","text":"1 Column","pattern":[3],"cols":3,"colWidth":{"3":100},"row":1},{"id":"MSAI_9","category":"CELL","type":"PLAIN","ui_seq_count":1,"cell_count":1,"parentId":"MSAI_3","containerType":"TABS","text":"1 Column","pattern":[3],"cols":3,"colWidth":{"3":100},"row":2},{"id":"MSAI_10","category":"CELL","type":"PLAIN","ui_seq_count":1,"cell_count":1,"parentId":"MSAI_3","containerType":"TABS","text":"1 Column","pattern":[3],"cols":3,"colWidth":{"3":100},"row":3},{"id":"AR_SERVER_URL","parentId":"MSAI_8","cell":0,"category":"FIELD","type":"TEXT","type_ui":"TEXT","ui_seq":0,"vea_title":"AR Server Mid-tier URL","vea_multi_row_flag":"N","vea_rows":1,"vea_region_name":"","region_name":"","multirow_name":"","text":"Text Field","vea_entity_name":"MS_ITG_ATR_CONFIG","result_column_name":"AR_SERVER_URL","vea_description":"","vea_help":"","vea_validation_infolet":"","vea_hidden_flag":{"value":"N","name":"No"},"vea_read_only_flag":{"value":"N","name":"No"},"vea_required":{"value":"Y","name":"Yes"},"vea_validation_infolet_params":"","vea_default_infolet":{"name":"MS_ITG_ATRIUM_CONFIG_DETAILS"},"vea_default_infolet_params":"","vea_validation_filter_params":"","vea_default_filter_params":"","vea_field_size":60,"vea_field_type":"1","spell_check":{"value":"N","name":"No"},"date_format":"","vea_validation_infolet_filter":"","vea_default_infolet_filter":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_dflt_input_src":"ATRIUM_SERVER_URL","t_d_parameter_count":0,"ent_attrib_filter_params":{"filter":[]},"ent_f_attrib_parameters_info":"","t_filter_param_cnt":0,"ent_d_attrib_filter_params":{"filter":[]},"ent_fd_attrib_parameters_info":"","t_d_filter_param_cnt":0,"vea_default_input_value":"","ent_attrib_parameters":"","ent_attrib_parameters_info":"","t_parameter_cnt":0,"ent_d_attrib_parameter":"","ent_d_attrib_parameters_info":"","context_help":"","vea_input_type":{"name":"None","value":"0"},"vea_enable_runinfolet":{"value":"N","name":"Passive"},"vea_mlov_delimiter":"","vea_mlov_delimiter_ui":{"value":";","name":";"},"vea_input_value":"","vea_d_input_type":{"value":"3","name":"Infolet"},"vea_order":7,"vea_validate":{"value":"N","name":"No"},"vea_datatype":"5","config_type":"N","vea_display_infolet":"","vea_display_stored_column_name":"","vea_display_disp_column_name":"","cls":"msai_tool_field","iconCls":"icon_msai_field_text","leaf":true,"dataobj_dependency":{"defaultSource":{"sourceOfModification":"DF"},"dataSource":{"sourceOfModification":"DO"}},"vea_display_input_type":{"value":"0","name":"None"},"vea_field_uppercase":{"value":"N","name":"No"},"vea_simple_lov_name":"","vea_simple_lov_enabled":false,"vea_cascading_lov_parent_field":"","vea_cascaded_lov_parent_lov_name":"","vea_cascaded_lov_associations":[{"parent_lov_item_name":"","child_lov_item_names":[]}],"vea_enable_cascading_lov":{"value":"N","name":"No"}},{"id":"USERNAME","parentId":"MSAI_9","cell":0,"category":"FIELD","type":"TEXT","type_ui":"TEXT","ui_seq":0,"vea_title":"User Name","vea_multi_row_flag":"N","vea_rows":1,"vea_region_name":"","region_name":"","multirow_name":"","text":"Text Field","vea_entity_name":"MS_ITG_ATR_CONFIG","result_column_name":"USERNAME","vea_description":"","vea_help":"","vea_validation_infolet":"","vea_hidden_flag":{"value":"N","name":"No"},"vea_read_only_flag":{"value":"N","name":"No"},"vea_required":{"value":"Y","name":"Yes"},"vea_validation_infolet_params":"","vea_default_infolet":{"name":"MS_ITG_ATRIUM_CONFIG_DETAILS"},"vea_default_infolet_params":"","vea_validation_filter_params":"","vea_default_filter_params":"","vea_field_size":25,"vea_field_type":"1","spell_check":{"value":"N","name":"No"},"date_format":"","vea_validation_infolet_filter":"","vea_default_infolet_filter":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_dflt_input_src":"ATRIUM_USER_NAME","t_d_parameter_count":0,"ent_attrib_filter_params":{"filter":[]},"ent_f_attrib_parameters_info":"","t_filter_param_cnt":0,"ent_d_attrib_filter_params":{"filter":[]},"ent_fd_attrib_parameters_info":"","t_d_filter_param_cnt":0,"vea_default_input_value":"","ent_attrib_parameters":"","ent_attrib_parameters_info":"","t_parameter_cnt":0,"ent_d_attrib_parameter":"","ent_d_attrib_parameters_info":"","context_help":"","vea_input_type":{"name":"None","value":"0"},"vea_enable_runinfolet":{"value":"N","name":"Passive"},"vea_mlov_delimiter":"","vea_mlov_delimiter_ui":{"value":";","name":";"},"vea_input_value":"","vea_d_input_type":{"value":"3","name":"Infolet"},"vea_order":8,"vea_validate":{"value":"N","name":"No"},"vea_datatype":"5","config_type":"N","vea_display_infolet":"","vea_display_stored_column_name":"","vea_display_disp_column_name":"","cls":"msai_tool_field","iconCls":"icon_msai_field_text","leaf":true,"dataobj_dependency":{"defaultSource":{"sourceOfModification":"DF"},"dataSource":{"sourceOfModification":"DO"}},"vea_display_input_type":{"value":"0","name":"None"},"vea_field_uppercase":{"value":"N","name":"No"},"vea_simple_lov_name":"","vea_simple_lov_enabled":false,"vea_cascading_lov_parent_field":"","vea_cascaded_lov_parent_lov_name":"","vea_cascaded_lov_associations":[{"parent_lov_item_name":"","child_lov_item_names":[]}],"vea_enable_cascading_lov":{"value":"N","name":"No"}},{"id":"SERVER_PASSWORD","parentId":"MSAI_10","cell":0,"category":"FIELD","type":"TEXT","type_ui":"TEXT","ui_seq":0,"vea_title":"Password","vea_multi_row_flag":"N","vea_rows":1,"vea_region_name":"","region_name":"","multirow_name":"","text":"Text Field","vea_entity_name":"MS_ITG_ATR_CONFIG","result_column_name":"SERVER_PASSWORD","vea_description":"","vea_help":"","vea_validation_infolet":"","vea_hidden_flag":{"value":"N","name":"No"},"vea_read_only_flag":{"value":"N","name":"No"},"vea_required":{"value":"Y","name":"Yes"},"vea_validation_infolet_params":"","vea_default_infolet":{"name":"MS_ITG_ATRIUM_CONFIG_DETAILS"},"vea_default_infolet_params":"","vea_validation_filter_params":"","vea_default_filter_params":"","vea_field_size":25,"vea_field_type":"1","spell_check":{"value":"N","name":"No"},"date_format":"","vea_validation_infolet_filter":"","vea_default_infolet_filter":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_dflt_input_src":"ATRIUM_PASSWORD","t_d_parameter_count":0,"ent_attrib_filter_params":{"filter":[]},"ent_f_attrib_parameters_info":"","t_filter_param_cnt":0,"ent_d_attrib_filter_params":{"filter":[]},"ent_fd_attrib_parameters_info":"","t_d_filter_param_cnt":0,"vea_default_input_value":"","ent_attrib_parameters":"","ent_attrib_parameters_info":"","t_parameter_cnt":0,"ent_d_attrib_parameter":"","ent_d_attrib_parameters_info":"","context_help":"","vea_input_type":{"name":"None","value":"0"},"vea_enable_runinfolet":{"value":"N","name":"Passive"},"vea_mlov_delimiter":"","vea_mlov_delimiter_ui":{"value":";","name":";"},"vea_input_value":"","vea_d_input_type":{"value":"3","name":"Infolet"},"vea_order":9,"vea_validate":{"value":"N","name":"No"},"vea_datatype":"5","config_type":"N","vea_display_infolet":"","vea_display_stored_column_name":"","vea_display_disp_column_name":"","cls":"msai_tool_field","iconCls":"icon_msai_field_text","leaf":true,"dataobj_dependency":{"defaultSource":{"sourceOfModification":"DF"},"dataSource":{"sourceOfModification":"DO"}},"vea_display_input_type":{"value":"0","name":"None"},"vea_field_uppercase":{"value":"N","name":"No"},"vea_simple_lov_name":"","vea_simple_lov_enabled":false,"vea_cascading_lov_parent_field":"","vea_cascaded_lov_parent_lov_name":"","vea_cascaded_lov_associations":[{"parent_lov_item_name":"","child_lov_item_names":[]}],"vea_enable_cascading_lov":{"value":"N","name":"No"}},{"id":"DD_OBJECT_TYPE","parentId":"MSAI_16","cell":0,"category":"FIELD","type":"TEXT","type_ui":"TEXT","ui_seq":0,"vea_title":"Object Type","vea_multi_row_flag":"N","vea_rows":1,"vea_region_name":"","region_name":"","multirow_name":"","text":"Object Type","vea_entity_name":"MS_ITG_ATR_CONFIG","result_column_name":"DD_OBJECT_TYPE","vea_description":"","vea_help":"","vea_validation_infolet":"","vea_hidden_flag":{"value":"N","name":"No"},"vea_read_only_flag":{"value":"Y","name":"Yes"},"vea_required":{"value":"Y","name":"Yes"},"vea_validation_infolet_params":"","vea_default_infolet":"","vea_default_infolet_params":"","vea_validation_filter_params":"","vea_default_filter_params":"","vea_field_size":25,"vea_field_type":"1","spell_check":{"value":"N","name":"No"},"date_format":"","vea_validation_infolet_filter":"","vea_default_infolet_filter":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_dflt_input_src":"","t_d_parameter_count":0,"ent_attrib_filter_params":{"filter":[]},"ent_f_attrib_parameters_info":"","t_filter_param_cnt":0,"ent_d_attrib_filter_params":{"filter":[]},"ent_fd_attrib_parameters_info":"","t_d_filter_param_cnt":0,"vea_default_input_value":"MS_ITG_ATR_CONFIG","ent_attrib_parameters":"","ent_attrib_parameters_info":"","t_parameter_cnt":0,"ent_d_attrib_parameter":"","ent_d_attrib_parameters_info":"","context_help":"","vea_input_type":{"value":"0","name":"None"},"vea_enable_runinfolet":{"value":"N","name":"Passive"},"vea_mlov_delimiter":"","vea_mlov_delimiter_ui":{"value":";","name":";"},"vea_input_value":"","vea_d_input_type":{"value":"5","name":"Constant"},"vea_order":"1","vea_validate":{"value":"N","name":"No"},"vea_datatype":5,"config_type":"D","vea_display_infolet":"","vea_display_stored_column_name":"","vea_display_disp_column_name":"","cls":"msai_default_field","iconCls":"icon_msai_field_readonly","leaf":true,"dataobj_dependency":{"dataSource":{"sourceOfModification":""},"defaultSource":{"sourceOfModification":""}},"vea_display_input_type":{"value":"0","name":"None"},"vea_field_uppercase":{"value":"N","name":"No"},"vea_simple_lov_name":"","vea_simple_lov_enabled":false,"vea_cascading_lov_parent_field":"","vea_cascaded_lov_parent_lov_name":"","vea_cascaded_lov_associations":[{"parent_lov_item_name":"","child_lov_item_names":[]}],"vea_enable_cascading_lov":{"value":"N","name":"No"}},{"id":"DD_CURRENT_USER_NAME","parentId":"MSAI_17","cell":0,"category":"FIELD","type":"TEXT","type_ui":"TEXT","ui_seq":0,"vea_title":"Current User Name","vea_multi_row_flag":"N","vea_rows":1,"vea_region_name":"","region_name":"","multirow_name":"","text":"Current User Name","vea_entity_name":"MS_ITG_ATR_CONFIG","result_column_name":"DD_CURRENT_USER_NAME","vea_description":"","vea_help":"","vea_validation_infolet":"","vea_hidden_flag":{"value":"N","name":"No"},"vea_read_only_flag":{"value":"Y","name":"Yes"},"vea_required":{"value":"Y","name":"Yes"},"vea_validation_infolet_params":"","vea_default_infolet":"","vea_default_infolet_params":"","vea_validation_filter_params":"","vea_default_filter_params":"","vea_field_size":25,"vea_field_type":"1","spell_check":{"value":"N","name":"No"},"date_format":"","vea_validation_infolet_filter":"","vea_default_infolet_filter":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_dflt_input_src":"","t_d_parameter_count":0,"ent_attrib_filter_params":{"filter":[]},"ent_f_attrib_parameters_info":"","t_filter_param_cnt":0,"ent_d_attrib_filter_params":{"filter":[]},"ent_fd_attrib_parameters_info":"","t_d_filter_param_cnt":0,"vea_default_input_value":"USER_NAME","ent_attrib_parameters":"","ent_attrib_parameters_info":"","t_parameter_cnt":0,"ent_d_attrib_parameter":"","ent_d_attrib_parameters_info":"","context_help":"","vea_input_type":{"value":"0","name":"None"},"vea_enable_runinfolet":{"value":"N","name":"Passive"},"vea_mlov_delimiter":"","vea_mlov_delimiter_ui":{"value":";","name":";"},"vea_input_value":"","vea_d_input_type":{"value":"4","name":"User Information"},"vea_order":"2","vea_validate":{"value":"N","name":"No"},"vea_datatype":5,"config_type":"D","vea_display_infolet":"","vea_display_stored_column_name":"","vea_display_disp_column_name":"","cls":"msai_default_field","iconCls":"icon_msai_field_readonly","leaf":true,"dataobj_dependency":{"dataSource":{"sourceOfModification":""},"defaultSource":{"sourceOfModification":""}},"vea_display_input_type":{"value":"0","name":"None"},"vea_field_uppercase":{"value":"N","name":"No"},"vea_simple_lov_name":"","vea_simple_lov_enabled":false,"vea_cascading_lov_parent_field":"","vea_cascaded_lov_parent_lov_name":"","vea_cascaded_lov_associations":[{"parent_lov_item_name":"","child_lov_item_names":[]}],"vea_enable_cascading_lov":{"value":"N","name":"No"}},{"id":"DD_EVENT_USER_NAME","parentId":"MSAI_18","cell":0,"category":"FIELD","type":"TEXT","type_ui":"TEXT","ui_seq":0,"vea_title":"Event User Name","vea_multi_row_flag":"N","vea_rows":1,"vea_region_name":"","region_name":"","multirow_name":"","text":"Event User Name","vea_entity_name":"MS_ITG_ATR_CONFIG","result_column_name":"DD_EVENT_USER_NAME","vea_description":"","vea_help":"","vea_validation_infolet":"","vea_hidden_flag":{"value":"N","name":"No"},"vea_read_only_flag":{"value":"Y","name":"Yes"},"vea_required":{"value":"Y","name":"Yes"},"vea_validation_infolet_params":"","vea_default_infolet":"","vea_default_infolet_params":"","vea_validation_filter_params":"","vea_default_filter_params":"","vea_field_size":25,"vea_field_type":"1","spell_check":{"value":"N","name":"No"},"date_format":"","vea_validation_infolet_filter":"","vea_default_infolet_filter":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_dflt_input_src":"","t_d_parameter_count":0,"ent_attrib_filter_params":{"filter":[]},"ent_f_attrib_parameters_info":"","t_filter_param_cnt":0,"ent_d_attrib_filter_params":{"filter":[]},"ent_fd_attrib_parameters_info":"","t_d_filter_param_cnt":0,"vea_default_input_value":"USER_NAME","ent_attrib_parameters":"","ent_attrib_parameters_info":"","t_parameter_cnt":0,"ent_d_attrib_parameter":"","ent_d_attrib_parameters_info":"","context_help":"","vea_input_type":{"value":"0","name":"None"},"vea_enable_runinfolet":{"value":"N","name":"Passive"},"vea_mlov_delimiter":"","vea_mlov_delimiter_ui":{"value":";","name":";"},"vea_input_value":"","vea_d_input_type":{"value":"4","name":"User Information"},"vea_order":"3","vea_validate":{"value":"N","name":"No"},"vea_datatype":5,"config_type":"D","vea_display_infolet":"","vea_display_stored_column_name":"","vea_display_disp_column_name":"","cls":"msai_default_field","iconCls":"icon_msai_field_readonly","leaf":true,"dataobj_dependency":{"dataSource":{"sourceOfModification":""},"defaultSource":{"sourceOfModification":""}},"vea_display_input_type":{"value":"0","name":"None"},"vea_field_uppercase":{"value":"N","name":"No"},"vea_simple_lov_name":"","vea_simple_lov_enabled":false,"vea_cascading_lov_parent_field":"","vea_cascaded_lov_parent_lov_name":"","vea_cascaded_lov_associations":[{"parent_lov_item_name":"","child_lov_item_names":[]}],"vea_enable_cascading_lov":{"value":"N","name":"No"}},{"id":"DD_ENTERPRISE_INFO","parentId":"MSAI_19","cell":0,"category":"FIELD","type":"TEXT","type_ui":"TEXT","ui_seq":0,"vea_title":"Enterprise Info","vea_multi_row_flag":"N","vea_rows":1,"vea_region_name":"","region_name":"","multirow_name":"","text":"Enterprise Info","vea_entity_name":"MS_ITG_ATR_CONFIG","result_column_name":"DD_ENTERPRISE_INFO","vea_description":"","vea_help":"","vea_validation_infolet":"","vea_hidden_flag":{"value":"N","name":"No"},"vea_read_only_flag":{"value":"Y","name":"Yes"},"vea_required":{"value":"Y","name":"Yes"},"vea_validation_infolet_params":"","vea_default_infolet":"","vea_default_infolet_params":"","vea_validation_filter_params":"","vea_default_filter_params":"","vea_field_size":25,"vea_field_type":"1","spell_check":{"value":"N","name":"No"},"date_format":"","vea_validation_infolet_filter":"","vea_default_infolet_filter":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_dflt_input_src":"","t_d_parameter_count":0,"ent_attrib_filter_params":{"filter":[]},"ent_f_attrib_parameters_info":"","t_filter_param_cnt":0,"ent_d_attrib_filter_params":{"filter":[]},"ent_fd_attrib_parameters_info":"","t_d_filter_param_cnt":0,"vea_default_input_value":"ENTERPRISE","ent_attrib_parameters":"","ent_attrib_parameters_info":"","t_parameter_cnt":0,"ent_d_attrib_parameter":"","ent_d_attrib_parameters_info":"","context_help":"","vea_input_type":{"value":"0","name":"None"},"vea_enable_runinfolet":{"value":"N","name":"Passive"},"vea_mlov_delimiter":"","vea_mlov_delimiter_ui":{"value":";","name":";"},"vea_input_value":"","vea_d_input_type":{"value":"4","name":"User Information"},"vea_order":"4","vea_validate":{"value":"N","name":"No"},"vea_datatype":5,"config_type":"D","vea_display_infolet":"","vea_display_stored_column_name":"","vea_display_disp_column_name":"","cls":"msai_default_field","iconCls":"icon_msai_field_readonly","leaf":true,"dataobj_dependency":{"dataSource":{"sourceOfModification":""},"defaultSource":{"sourceOfModification":""}},"vea_display_input_type":{"value":"0","name":"None"},"vea_field_uppercase":{"value":"N","name":"No"},"vea_simple_lov_name":"","vea_simple_lov_enabled":false,"vea_cascading_lov_parent_field":"","vea_cascaded_lov_parent_lov_name":"","vea_cascaded_lov_associations":[{"parent_lov_item_name":"","child_lov_item_names":[]}],"vea_enable_cascading_lov":{"value":"N","name":"No"}},{"id":"DD_CURRENT_STAGE","parentId":"MSAI_20","cell":0,"category":"FIELD","type":"TEXT","type_ui":"TEXT","ui_seq":0,"vea_title":"Current Stage","vea_multi_row_flag":"N","vea_rows":1,"vea_region_name":"","region_name":"","multirow_name":"","text":"Current Stage","vea_entity_name":"MS_ITG_ATR_CONFIG","result_column_name":"DD_CURRENT_STAGE","vea_description":"","vea_help":"","vea_validation_infolet":"","vea_hidden_flag":{"value":"N","name":"No"},"vea_read_only_flag":{"value":"Y","name":"Yes"},"vea_required":{"value":"N","name":"No"},"vea_validation_infolet_params":"","vea_default_infolet":"","vea_default_infolet_params":"","vea_validation_filter_params":"","vea_default_filter_params":"","vea_field_size":25,"vea_field_type":"1","spell_check":{"value":"N","name":"No"},"date_format":"","vea_validation_infolet_filter":"","vea_default_infolet_filter":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_dflt_input_src":"","t_d_parameter_count":0,"ent_attrib_filter_params":{"filter":[]},"ent_f_attrib_parameters_info":"","t_filter_param_cnt":0,"ent_d_attrib_filter_params":{"filter":[]},"ent_fd_attrib_parameters_info":"","t_d_filter_param_cnt":0,"vea_default_input_value":"","ent_attrib_parameters":"","ent_attrib_parameters_info":"","t_parameter_cnt":0,"ent_d_attrib_parameter":"","ent_d_attrib_parameters_info":"","context_help":"","vea_input_type":{"value":"0","name":"None"},"vea_enable_runinfolet":{"value":"N","name":"Passive"},"vea_mlov_delimiter":"","vea_mlov_delimiter_ui":{"value":";","name":";"},"vea_input_value":"","vea_d_input_type":{"value":"0","name":"None"},"vea_order":"5","vea_validate":{"value":"N","name":"No"},"vea_datatype":5,"config_type":"D","vea_display_infolet":"","vea_display_stored_column_name":"","vea_display_disp_column_name":"","cls":"msai_default_field","iconCls":"icon_msai_field_readonly","leaf":true,"dataobj_dependency":{"dataSource":{"sourceOfModification":""},"defaultSource":{"sourceOfModification":""}},"vea_display_input_type":{"value":"0","name":"None"},"vea_field_uppercase":{"value":"N","name":"No"},"vea_simple_lov_name":"","vea_simple_lov_enabled":false,"vea_cascading_lov_parent_field":"","vea_cascaded_lov_parent_lov_name":"","vea_cascaded_lov_associations":[{"parent_lov_item_name":"","child_lov_item_names":[]}],"vea_enable_cascading_lov":{"value":"N","name":"No"}},{"id":"DD_PROCESS_CODE","parentId":"MSAI_21","cell":0,"category":"FIELD","type":"TEXT","type_ui":"TEXT","ui_seq":0,"vea_title":"Process Code","vea_multi_row_flag":"N","vea_rows":1,"vea_region_name":"","region_name":"","multirow_name":"","text":"Process Code","vea_entity_name":"MS_ITG_ATR_CONFIG","result_column_name":"DD_PROCESS_CODE","vea_description":"","vea_help":"","vea_validation_infolet":"","vea_hidden_flag":{"value":"N","name":"No"},"vea_read_only_flag":{"value":"N","name":"No"},"vea_required":{"value":"Y","name":"Yes"},"vea_validation_infolet_params":"","vea_default_infolet":"","vea_default_infolet_params":"","vea_validation_filter_params":"","vea_default_filter_params":"","vea_field_size":25,"vea_field_type":"1","spell_check":{"value":"N","name":"No"},"date_format":"","vea_validation_infolet_filter":"","vea_default_infolet_filter":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_dflt_input_src":"","t_d_parameter_count":0,"ent_attrib_filter_params":{"filter":[]},"ent_f_attrib_parameters_info":"","t_filter_param_cnt":0,"ent_d_attrib_filter_params":{"filter":[]},"ent_fd_attrib_parameters_info":"","t_d_filter_param_cnt":0,"vea_default_input_value":"","ent_attrib_parameters":"","ent_attrib_parameters_info":"","t_parameter_cnt":0,"ent_d_attrib_parameter":"","ent_d_attrib_parameters_info":"","context_help":"","vea_input_type":{"value":"0","name":"None"},"vea_enable_runinfolet":{"value":"N","name":"Passive"},"vea_mlov_delimiter":"","vea_mlov_delimiter_ui":{"value":";","name":";"},"vea_input_value":"","vea_d_input_type":{"value":"0","name":"None"},"vea_order":"6","vea_validate":{"value":"N","name":"No"},"vea_datatype":5,"config_type":"D","vea_display_infolet":"","vea_display_stored_column_name":"","vea_display_disp_column_name":"","cls":"msai_default_field","iconCls":"icon_msai_field_text","leaf":true,"dataobj_dependency":{"dataSource":{"sourceOfModification":""},"defaultSource":{"sourceOfModification":""}},"vea_display_input_type":{"value":"0","name":"None"},"vea_field_uppercase":{"value":"N","name":"No"},"vea_simple_lov_name":"","vea_simple_lov_enabled":false,"vea_cascading_lov_parent_field":"","vea_cascaded_lov_parent_lov_name":"","vea_cascaded_lov_associations":[{"parent_lov_item_name":"","child_lov_item_names":[]}],"vea_enable_cascading_lov":{"value":"N","name":"No"}},{"id":"MSAI_6","category":"FORMELEMENT","type":"ACCORDION","ui_seq":0,"parentId":"MSAI_5"},{"id":"MSAI_7","text":"${arServerDetails}","category":"FORMELEMENT","type":"STATICTEXT","description":"","parentId":"MSAI_5","cell":0,"ui_seq":0},{"id":"MSAI_15","text":"${formHelpText}","category":"FORMELEMENT","type":"STATICTEXT","description":"","parentId":"MSAI_14","cell":0,"ui_seq":0}]]]></uiJson><rulesJson><![CDATA[[]]]></rulesJson><zoneJson><![CDATA[[]]]></zoneJson><hierarchyJson><![CDATA[[]]]></hierarchyJson><doElement><![CDATA[[{"id":"SERVER_URL_MS_ITG_ATR_CONFIG","name":"SERVER_URL","value":"SERVER_URL","parentId":"","elementType":"ATTRIBUTE","dbTableName":"MS_ITG_ATR_CONFIG","dataType":"5","tooltip":"SERVER_URL ( Module : ATR, Object : MS_ITG_ATR_CONFIG )","object":"MS_ITG_ATR_CONFIG","selected":true,"formFieldId":"","primaryKey":true,"required":true,"dataSource":{"vea_input_type":{"name":"None","value":"0"},"vea_input_value":"","vea_validation_infolet":"","vea_validation_infolet_params":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_validation_infolet_filter":"","vea_validation_filter_params":""},"defaultSource":{"vea_d_input_type":{"name":"None","value":"0"},"vea_default_input_value":"","vea_default_infolet":"","vea_default_infolet_params":"","vea_default_infolet_filter":"","vea_default_filter_params":"","vea_dflt_input_src":"","ent_d_attrib_filter_params":""},"source":"DO"},{"id":"USERNAME_MS_ITG_ATR_CONFIG","name":"USERNAME","value":"USERNAME","parentId":"","elementType":"ATTRIBUTE","dbTableName":"MS_ITG_ATR_CONFIG","dataType":"5","tooltip":"USERNAME ( Module : ATR, Object : MS_ITG_ATR_CONFIG )","object":"MS_ITG_ATR_CONFIG","selected":true,"formFieldId":"","primaryKey":false,"required":true,"dataSource":{"vea_input_type":{"name":"None","value":"0"},"vea_input_value":"","vea_validation_infolet":"","vea_validation_infolet_params":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_validation_infolet_filter":"","vea_validation_filter_params":""},"defaultSource":{"vea_d_input_type":{"name":"None","value":"0"},"vea_default_input_value":"","vea_default_infolet":"","vea_default_infolet_params":"","vea_default_infolet_filter":"","vea_default_filter_params":"","vea_dflt_input_src":"","ent_d_attrib_filter_params":""},"source":"DO"},{"id":"SERVER_PASSWORD_MS_ITG_ATR_CONFIG","name":"SERVER_PASSWORD","value":"SERVER_PASSWORD","parentId":"","elementType":"ATTRIBUTE","dbTableName":"MS_ITG_ATR_CONFIG","dataType":"5","tooltip":"SERVER_PASSWORD ( Module : ATR, Object : MS_ITG_ATR_CONFIG )","object":"MS_ITG_ATR_CONFIG","selected":true,"formFieldId":"","primaryKey":false,"required":true,"dataSource":{"vea_input_type":{"name":"None","value":"0"},"vea_input_value":"","vea_validation_infolet":"","vea_validation_infolet_params":"","vea_disp_input_src":"","vea_stored_input_src":"","vea_disp_columns":"","vea_validation_infolet_filter":"","vea_validation_filter_params":""},"defaultSource":{"vea_d_input_type":{"name":"None","value":"0"},"vea_default_input_value":"","vea_default_infolet":"","vea_default_infolet_params":"","vea_default_infolet_filter":"","vea_default_filter_params":"","vea_dflt_input_src":"","ent_d_attrib_filter_params":""},"source":"DO"}]]]></doElement><html><![CDATA[<HIDDEN>#parse("fastform/generated_javascript_template.vm")</HIDDEN>
+<HIDDEN>#parse("fastform/ms_appstudio_mpower_def.vm")</HIDDEN>
+<head><link id="msai_theme_link" type="text/css" href="$!{WEBROOT}/appssdk/dlo/aside.css" rel="stylesheet"></link></head>
+<body>
+<script>function getCustomMultirowRowContent(multiId,rowSeq,addCheckbox) { 
+}</script>
+
+
+
+
+<form name="pushform" method="post" action="$WEBSERVICES_DESTINATION/infolet_stream" enctype="multipart/form-data">
+<HIDDEN>#parse("fastform/header_content_template.vm")</HIDDEN>
+<div id="main_container" class="msai_main_container" style="width:720px">
+<table class="msai_field_column" cellspacing="0" cellpadding="1">
+<tbody class="">
+<tr id="MSAI_14" class="msai_accordion_row" asidespan="3">
+<td style="WIDTH: 100%" class="msai_column msai_formheading msai_column3" colspan="3">
+<div class="msai_accordion_probable"></div>
+<span class="msai_form_static" id="MSAI_15">${formHelpText}</span></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_1" class="msai_accordion_row" asidespan="3">
+<td style="WIDTH: 100%" class="msai_column msai_formheading msai_column3" colspan="3">
+<div class="msai_accordion_probable"></div>
+<table id="MSAI_2" class="msai_tabs" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="msai_tab_leaf msai_tab_align_left">
+<div class="msai_tab_align"></div>
+<span id="MSAI_3" class="msai_tab_open" onClick="msai_tab_hideAll('MSAI_2');msai_tab_show('MSAI_2','MSAI_3');" onmouseenter="msai_tab_hover(this);" onmouseleave="msai_tab_unhover(this);">
+<span>${details} </span>
+<div class="msai_tab_rearrange_icon"></div>
+<div class="msai_tab_del"></div>
+<div class="msai_tab_add"></div></span></td></tr>
+<tr>
+<td class="msai_tab_display">
+<table class="msai_field_column" cellspacing="1" cellpadding="1">
+<tbody class="">
+<tr id="MSAI_5" class="msai_accordion_row" asidespan="3">
+<td style="WIDTH: 100%" class="msai_column msai_formheading msai_column3" colspan="3">
+<div class="msai_accordion" id="MSAI_6" onclick="toggleAccordion(this)"></div>
+<span class="msai_form_static" id="MSAI_7">${arServerDetails}</span></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_8" asidespan="3">
+<td class="msai_column msai_column3" style="width:100%" colspan="3" id="MSAI_TD_AR_SERVER_URL_1">
+<div class="___nonmultirow___ msai_celldiv msai_field_label"><SCRIPT>writeFieldLabel(1,7)</SCRIPT></div>
+<div class="___nonmultirow___ msai_celldiv msai_field_field"><SCRIPT>writeField(1,7)</SCRIPT></div></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_9" asidespan="3">
+<td class="msai_column msai_column3" style="width:100%" colspan="3" id="MSAI_TD_USERNAME_1">
+<div class="___nonmultirow___ msai_celldiv msai_field_label"><SCRIPT>writeFieldLabel(1,8)</SCRIPT></div>
+<div class="___nonmultirow___ msai_celldiv msai_field_field"><SCRIPT>writeField(1,8)</SCRIPT></div></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_10" asidespan="3">
+<td class="msai_column msai_column3" style="width:100%" colspan="3" id="MSAI_TD_SERVER_PASSWORD_1">
+<div class="___nonmultirow___ msai_celldiv msai_field_label"><SCRIPT>writeFieldLabel(1,9)</SCRIPT></div>
+<div class="___nonmultirow___ msai_celldiv msai_field_field"><SCRIPT>writeField(1,9)</SCRIPT></div></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr></tbody></table></td></tr></tbody></table></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_16" class="msai_hidden_column" style="display: none;" asidespan="3">
+<td class="msai_column msai_hidden_column msai_column3" style="width:100%" colspan="3" id="MSAI_TD_DD_OBJECT_TYPE_1">
+<div class="___nonmultirow___ msai_celldiv msai_field_label"><SCRIPT>writeFieldLabel(1,1)</SCRIPT></div>
+<div class="___nonmultirow___ msai_celldiv msai_field_field"><SCRIPT>writeField(1,1)</SCRIPT></div></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_17" class="msai_hidden_column" style="display: none;" asidespan="3">
+<td class="msai_column msai_hidden_column msai_column3" style="width:100%" colspan="3" id="MSAI_TD_DD_CURRENT_USER_NAME_1">
+<div class="___nonmultirow___ msai_celldiv msai_field_label"><SCRIPT>writeFieldLabel(1,2)</SCRIPT></div>
+<div class="___nonmultirow___ msai_celldiv msai_field_field"><SCRIPT>writeField(1,2)</SCRIPT></div></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_18" class="msai_hidden_column" style="display: none;" asidespan="3">
+<td class="msai_column msai_hidden_column msai_column3" style="width:100%" colspan="3" id="MSAI_TD_DD_EVENT_USER_NAME_1">
+<div class="___nonmultirow___ msai_celldiv msai_field_label"><SCRIPT>writeFieldLabel(1,3)</SCRIPT></div>
+<div class="___nonmultirow___ msai_celldiv msai_field_field"><SCRIPT>writeField(1,3)</SCRIPT></div></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_19" class="msai_hidden_column" style="display: none;" asidespan="3">
+<td class="msai_column msai_hidden_column msai_column3" style="width:100%" colspan="3" id="MSAI_TD_DD_ENTERPRISE_INFO_1">
+<div class="___nonmultirow___ msai_celldiv msai_field_label"><SCRIPT>writeFieldLabel(1,4)</SCRIPT></div>
+<div class="___nonmultirow___ msai_celldiv msai_field_field"><SCRIPT>writeField(1,4)</SCRIPT></div></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_20" class="msai_hidden_column" style="display: none;" asidespan="3">
+<td class="msai_column msai_hidden_column msai_column3" style="width:100%" colspan="3" id="MSAI_TD_DD_CURRENT_STAGE_1">
+<div class="___nonmultirow___ msai_celldiv msai_field_label"><SCRIPT>writeFieldLabel(1,5)</SCRIPT></div>
+<div class="___nonmultirow___ msai_celldiv msai_field_field"><SCRIPT>writeField(1,5)</SCRIPT></div></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr>
+<tr id="MSAI_21" class="msai_hidden_column" style="display: none;" asidespan="3">
+<td class="msai_column msai_hidden_column msai_column3" style="width:100%" colspan="3" id="MSAI_TD_DD_PROCESS_CODE_1">
+<div class="___nonmultirow___ msai_celldiv msai_field_label"><SCRIPT>writeFieldLabel(1,6)</SCRIPT></div>
+<div class="___nonmultirow___ msai_celldiv msai_field_field"><SCRIPT>writeField(1,6)</SCRIPT></div></td>
+<td class="msai_column_rowdel">&nbsp;</td></tr></tbody></table></div>
+<HIDDEN>#parse("fastform/esignature_template.vm")</HIDDEN>
+</form>
+<SCRIPT>/*40*/</SCRIPT>
+<!--MSAI_VERSION>1</MSAI_VERSION-->
+<textarea id="MSAI_LOG" class="msai_log_area" rows=15 readonly></textarea>
+<script>{zones: []}</script>
+<HIDDEN>#parse("fastform/ms_appstudio_mpower_init.vm")</HIDDEN>
+<script></script>
+<script>F.AR_SERVER_URL.hidePrivate = function(row){row='_'+row; F.hideFormCell('MSAI_TD_AR_SERVER_URL'+row); return true;};F.AR_SERVER_URL.showPrivate = function(row){row='_'+row; F.showFormCell('MSAI_TD_AR_SERVER_URL'+row); return true;};F.USERNAME.hidePrivate = function(row){row='_'+row; F.hideFormCell('MSAI_TD_USERNAME'+row); return true;};F.USERNAME.showPrivate = function(row){row='_'+row; F.showFormCell('MSAI_TD_USERNAME'+row); return true;};F.SERVER_PASSWORD.hidePrivate = function(row){row='_'+row; F.hideFormCell('MSAI_TD_SERVER_PASSWORD'+row); return true;};F.SERVER_PASSWORD.showPrivate = function(row){row='_'+row; F.showFormCell('MSAI_TD_SERVER_PASSWORD'+row); return true;};F.DD_OBJECT_TYPE.hidePrivate = function(row){row='_'+row; F.hideFormCell('MSAI_TD_DD_OBJECT_TYPE'+row); return true;};F.DD_OBJECT_TYPE.showPrivate = function(row){row='_'+row; F.showFormCell('MSAI_TD_DD_OBJECT_TYPE'+row); return true;};F.DD_CURRENT_USER_NAME.hidePrivate = function(row){row='_'+row; F.hideFormCell('MSAI_TD_DD_CURRENT_USER_NAME'+row); return true;};F.DD_CURRENT_USER_NAME.showPrivate = function(row){row='_'+row; F.showFormCell('MSAI_TD_DD_CURRENT_USER_NAME'+row); return true;};F.DD_EVENT_USER_NAME.hidePrivate = function(row){row='_'+row; F.hideFormCell('MSAI_TD_DD_EVENT_USER_NAME'+row); return true;};F.DD_EVENT_USER_NAME.showPrivate = function(row){row='_'+row; F.showFormCell('MSAI_TD_DD_EVENT_USER_NAME'+row); return true;};F.DD_ENTERPRISE_INFO.hidePrivate = function(row){row='_'+row; F.hideFormCell('MSAI_TD_DD_ENTERPRISE_INFO'+row); return true;};F.DD_ENTERPRISE_INFO.showPrivate = function(row){row='_'+row; F.showFormCell('MSAI_TD_DD_ENTERPRISE_INFO'+row); return true;};F.DD_CURRENT_STAGE.hidePrivate = function(row){row='_'+row; F.hideFormCell('MSAI_TD_DD_CURRENT_STAGE'+row); return true;};F.DD_CURRENT_STAGE.showPrivate = function(row){row='_'+row; F.showFormCell('MSAI_TD_DD_CURRENT_STAGE'+row); return true;};F.DD_PROCESS_CODE.hidePrivate = function(row){row='_'+row; F.hideFormCell('MSAI_TD_DD_PROCESS_CODE'+row); return true;};F.DD_PROCESS_CODE.showPrivate = function(row){row='_'+row; F.showFormCell('MSAI_TD_DD_PROCESS_CODE'+row); return true;};</script>
+<script> F.printLayoutConfig = {"placeHolders":[{"id":"Header","t":"TAB"},{"id":"MSAI_14","t":"ACCORDION","c":[]},{"id":"MSAI_1","t":"ACCORDION","c":[{"id":"DD_OBJECT_TYPE","t":"FIELD","c":[],"n":"DD_OBJECT_TYPE"},{"id":"DD_CURRENT_USER_NAME","t":"FIELD","c":[],"n":"DD_CURRENT_USER_NAME"},{"id":"DD_EVENT_USER_NAME","t":"FIELD","c":[],"n":"DD_EVENT_USER_NAME"},{"id":"DD_ENTERPRISE_INFO","t":"FIELD","c":[],"n":"DD_ENTERPRISE_INFO"},{"id":"DD_CURRENT_STAGE","t":"FIELD","c":[],"n":"DD_CURRENT_STAGE"},{"id":"DD_PROCESS_CODE","t":"FIELD","c":[],"n":"DD_PROCESS_CODE"}]}]}</script>
+<script>{rules:[{"category":"fdwidget","id":"MSAI_RULE_40","name":"msai_fdwidget_toolBar","enable":true,"event":{"level":"Fo","element":"F","method":{"name":"onLoad","parameters":[null],"returnval":false}},"condition":{"operand1":{"element":"NULL","method":{"name":"NULL","parameters":[],"returnval":""}},"operator":{"operator":"NULL"},"operand2":{"element":"NULL","method":{"name":"NULL","parameters":[],"returnval":""}}},"action1":{"level":"Cu","element":"ASIDE_CUSTOM","method":{"name":"F.activateToolBar().show()","parameters":[],"returnval":false}},"action2":{"element":"NULL","method":{"name":"NULL","parameters":[],"returnval":false}}}]}</script>
+<script>F.onLoad(function(){ F.activateToolBar().show();});
+</script>
+<script> F.onLoad(function(){ 
+ 
+}); </script>
+<script></script>
+<SCRIPT>
+</SCRIPT>
+<HIDDEN>#parse("fastform/MS_ATR/MS_ITG_ATR_COMMON_JS.js")</HIDDEN><HIDDEN><SCRIPT>#parse("fastform/MS_ATR/MS_ITG_ATR_CONFIG_JS.vm")</SCRIPT></HIDDEN>
+#if ($offline != "true") <script>$(".saveandsyncbutton").hide();$(".savesynccontinuebutton").hide();$(".saveputonlinebutton").hide();</script> #end
+#if ($offline == "true") <script>$(".saveclosebutton").hide();$(".submitbutton").hide();</script> #end
+#if ($offline == "true") <script>$(".savebutton").text("Save Changes"); $(".cancelbutton").text("Cancel Changes");</script> #end
+</body>
+<script>F.isAccessibilityEnabled = false;</script>
+<script>initial();</script><!--
+-----------------------------------------------------------
+Row IDs :
+These can be used to access individual rows in the template
+-----------------------------------------------------------
+MSAI_14
+MSAI_1
+MSAI_16
+MSAI_17
+MSAI_18
+MSAI_19
+MSAI_20
+MSAI_21
+MSAI_5
+MSAI_8
+MSAI_9
+MSAI_10
+
+-----------------------------------------------------------
+-----------------------------------------------------------
+Title IDs :
+These can be used to access the form title(s)
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Heading IDs :
+These can be used to access form section headings
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Static Text IDs :
+These can be used to access each of the static text
+-----------------------------------------------------------
+-----------------------------------------------------------
+MSAI_7
+MSAI_15
+
+-----------------------------------------------------------
+Button IDs :
+These can be used to access the buttons
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Link IDs :
+These can be used to access the hyperlinks
+-----------------------------------------------------------
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Tab IDs :
+These can be used to access the tabs. 
+-----------------------------------------------------------
+-----------------------------------------------------------
+MSAI_2
+-----------------------------------------------------------
+Report IDs :
+These can be used to access the reports. 
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+
+-->]]></html><sourceIncludes><![CDATA[#parse("fastform/MS_ATR/MS_ITG_ATR_COMMON_JS.js")]]></sourceIncludes><changeHistory><![CDATA[[{"result_column_name":"DD_OBJECT_TYPE","vea_title":"Object Type","header_section_name":"Default Fields","tracking_enabled":"No","display_enabled":"No"},{"result_column_name":"DD_CURRENT_USER_NAME","vea_title":"Current User Name","header_section_name":"Default Fields","tracking_enabled":"No","display_enabled":"No"},{"result_column_name":"DD_EVENT_USER_NAME","vea_title":"Event User Name","header_section_name":"Default Fields","tracking_enabled":"No","display_enabled":"No"},{"result_column_name":"DD_ENTERPRISE_INFO","vea_title":"Enterprise Info","header_section_name":"Default Fields","tracking_enabled":"No","display_enabled":"No"},{"result_column_name":"DD_CURRENT_STAGE","vea_title":"Current Stage","header_section_name":"Default Fields","tracking_enabled":"No","display_enabled":"No"},{"result_column_name":"DD_PROCESS_CODE","vea_title":"Process Code","header_section_name":"Default Fields","tracking_enabled":"No","display_enabled":"No"},{"result_column_name":"AR_SERVER_URL","vea_title":"AR Server Mid-tier URL","header_section_name":"${arServerDetails}","tracking_enabled":"No","display_enabled":"No"},{"result_column_name":"USERNAME","vea_title":"User Name","header_section_name":"${arServerDetails}","tracking_enabled":"No","display_enabled":"No"},{"result_column_name":"SERVER_PASSWORD","vea_title":"Password","header_section_name":"${arServerDetails}","tracking_enabled":"No","display_enabled":"No"}]]]></changeHistory></DATA_FORM_TEMPLATES></DATA></FORM_SPEC>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><FUNCTION_SPEC xmlns="http://www.metricstream.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.metricstream.com ms_application_schema.xsd">
+<PLATFORM_DETAILS>
+<PLATFORM_VERSION>6.1</PLATFORM_VERSION>
+<BUILD_VERSION>6.4.2.0</BUILD_VERSION>
+</PLATFORM_DETAILS>
+<STORED_PROCEDURE_NAME><![CDATA[MS_ATR_OBJECT_ID_GEN]]></STORED_PROCEDURE_NAME>
+<OBJECT_ID><![CDATA[MS_ATR_OBJECT_ID_GEN]]></OBJECT_ID>
+<OBJECT_TYPE><![CDATA[FUNCTION]]></OBJECT_TYPE>
+<TEXT><![CDATA[FUNCTION MS_ATR_OBJECT_ID_GEN RETURN VARCHAR2 AS 
+object_id varchar2(255);
+BEGIN
+
+select 'ATR-' || MS_ATR_OBJECT_ID_SEQ.nextVal into object_id from dual;
+
+  RETURN object_id;
+END MS_ATR_OBJECT_ID_GEN; ]]></TEXT>
+</FUNCTION_SPEC>
